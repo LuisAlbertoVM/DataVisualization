@@ -8,4 +8,8 @@ print(y)
 
 print()
 plt.plot(x,y)
+plt.plot(x,y,'bo')
+plt.plot(x,y,'rx')
+plt.plot(x,y,'rs-')
+plt.plot(x,y,'yD:')
 plt.show()
