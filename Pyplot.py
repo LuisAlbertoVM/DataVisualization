@@ -13,5 +13,15 @@ plt.plot(x,y,'rx')
 plt.plot(x,y,'rs-')
 plt.plot(x,y,'yD:')
 plt.show()
+
 plt.hist(x)
+plt.show()
+
+plt.pie(x)
+plt.show()
+
+plt.scatter(x,y)
+plt.show()
+
+plt.boxplot(x)
 plt.show()
