@@ -9,4 +9,9 @@ axes.plot(x,y,'b')
 plt.show()
 
 fig, axes = plt.subplots(nrows = 1, ncols=2)
-#axes.plot(x,y,'b')
+axes[0].plot(x,y,'b')
+axes[1].plot(y,x,'b')
+
+fig, (ax1, ax2) = plt.subplots(nrows = 1, ncols=2)
+ax1.plot(x,y,'b')
+ax2.plot(y,x,'b')
