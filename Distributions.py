@@ -12,3 +12,6 @@ plt.show()
 
 sns.ecdfplot(data=tips, x='tip', hue='sex',stat='count')
 plt.show()
+
+sns.displot(data=tips, x='tip', hue='sex',kind='kde',multiple='stack')
+plt.show()
