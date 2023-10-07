@@ -23,3 +23,7 @@ plt.figure(figsize=(6,6))
 sns.boxplot(data=tips,x='day',y='total_bill',hue='sex',dodge=True)
 sns.swarmplot(data=tips,x='day',y='total_bill',hue='sex',dodge=True, color='0',marker='<')
 plt.show()
+
+plt.figure(figsize=(6,6))
+sns.violinplot(data=tips,x='day',y='total_bill',hue='sex',dodge=True)
+plt.show()
