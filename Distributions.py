@@ -15,3 +15,6 @@ plt.show()
 
 sns.displot(data=tips, x='tip', hue='sex',kind='kde',multiple='stack')
 plt.show()
+
+sns.displot(data=tips, x='tip', hue='day',kind='kde',multiple='stack')
+plt.show()
