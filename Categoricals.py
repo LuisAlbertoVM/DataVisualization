@@ -16,5 +16,9 @@ sns.swarmplot(data=tips,x='day',y='total_bill',hue='sex',dodge=True)
 plt.show()
 
 plt.figure(figsize=(6,6))
+sns.boxplot(data=tips,y='total_bill')
+plt.show()
+
+plt.figure(figsize=(6,6))
 sns.boxplot(data=tips,x='day',y='total_bill',hue='sex',dodge=True)
 plt.show()
