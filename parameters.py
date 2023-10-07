@@ -16,5 +16,5 @@ plt.show()
 sns.displot(data=tips, x= 'total_bill', y='tip', hue='sex', kind='kde')
 plt.show()
 
-sns.displot(data=tips, x= 'total_bill', hue='sex', kind='kde', legend=True)
+sns.displot(data=tips, x= 'total_bill', hue='sex', kind='kde', legend=True,palette='dark', alpha=0.25)
 plt.show()
