@@ -27,3 +27,10 @@ plt.show()
 plt.figure(figsize=(6,6))
 sns.violinplot(data=tips,x='day',y='total_bill',hue='sex',palette='pastel',split=True)
 plt.show()
+
+plt.figure(figsize=(6,6))
+sns.violinplot(data=tips,y='total_bill')
+plt.show()
+
+sns.catplot(data=tips,x='day',y='total_bill',hue='sex')
+plt.show()
