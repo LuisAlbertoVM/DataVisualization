@@ -9,3 +9,6 @@ plt.show()
 
 sns.kdeplot(data=tips, x='tip', hue='sex', cumulative=False,shade='True',bw_adjust=1)
 plt.show()
+
+sns.ecdfplot(data=tips, x='tip', hue='sex',stat='count')
+plt.show()
