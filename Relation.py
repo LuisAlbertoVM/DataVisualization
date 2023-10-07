@@ -17,3 +17,6 @@ plt.show()
 
 sns.lineplot(data=tips,x='total_bill',y='tip', hue='day',style='time',size='size')
 plt.show()
+
+sns.relplot(data=tips,x='total_bill',y='tip', hue='day',style='time',size='size',col='time')
+plt.show()
